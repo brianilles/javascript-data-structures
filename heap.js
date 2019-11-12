@@ -15,7 +15,6 @@ class Heap {
 
   removePriority() {
     if (this.getSize() === 0) return Error('Heap is empty.');
-
     [this.storage[0], this.storage[this.getSize() - 1]] = [
       this.storage[this.getSize() - 1],
       this.storage[0]

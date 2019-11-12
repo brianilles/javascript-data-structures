@@ -63,6 +63,7 @@ class Graph {
     let q = [];
     q.push([startingVertex]);
     let visitedVertices = new Set();
+
     while (q.length > 0) {
       let path = q.shift();
       let vertex = path[path.length - 1];
@@ -83,6 +84,7 @@ class Graph {
     let s = [];
     s.push([startingVertex]);
     let visitedVertices = new Set();
+
     while (s.length > 0) {
       let path = s.pop();
       let vertex = path[path.length - 1];
