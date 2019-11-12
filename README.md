@@ -1,2 +1,3 @@
-# data-structures-and-algorithms
-A collection of data structures and algorithms.
+# javascript-data-structures
+
+A collection of basic data structures written in JavaScript.
